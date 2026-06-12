@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-import SearchBar from "../components/SearchBar.jsx";
-import FilterBar from "../components/FilterBar.jsx";
-import TaskList from "../components/TaskList.jsx";
+import SearchBar from "../Components/SearchBar.jsx";
+import FilterBar from "../Components/FilterBar.jsx";
+import TaskList from "../Components/TaskList.jsx";
 
 const Home = () => {
 

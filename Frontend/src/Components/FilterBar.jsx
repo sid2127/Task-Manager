@@ -1,7 +1,6 @@
 const FilterBar = ({ filter, setFilter }) => {
   return (
     <div className="flex gap-3 mt-6 mb-6">
-
       <button
         onClick={() => setFilter("all")}
         className={`px-5 py-2 rounded-lg font-medium transition-all duration-200

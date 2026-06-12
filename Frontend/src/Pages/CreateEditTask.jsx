@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
-import TaskForm from "../components/TaskForm";
+import TaskForm from "../Components/TaskForm";
 
 function CreateEditTask() {
 
